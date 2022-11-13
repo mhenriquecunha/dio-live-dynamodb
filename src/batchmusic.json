@@ -20,13 +20,25 @@
                 }
             }
         },
-        {
+        
+		{
             "PutRequest": {
                 "Item": {
-                  "Artist": {"S": "Iron Maiden"},
-                  "SongTitle": {"S": "Fear of the Dark"},
-                  "AlbumTitle": {"S": "Fear of the Dark Tour"},
-                  "SongYear": {"S": "1992"}
+                  "Artist": {"S": "Black Sabbath"},
+                  "SongTitle": {"S": "Sabbat Bloddy Sabbat"},
+                  "AlbumTitle": {"S": "Sabbat Bloddy Sabbat"},
+                  "SongYear": {"S": "2009"}
+                }
+            }
+        }
+		
+		{
+            "PutRequest": {
+                "Item": {
+                  "Artist": {"S": "Dire Straits"},
+                  "SongTitle": {"S": "Money for Nothing"},
+                  "AlbumTitle": {"S": "Brothers in Arms"},
+                  "SongYear": {"S": "1996"}
                 }
             }
         }
